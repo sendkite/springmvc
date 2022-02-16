@@ -22,9 +22,9 @@
 - 📝 Trace : 모든 레벨에 대한 로깅이 추적되므로 개발 단계에서 사용함
 
 
-[레벨별 로그 선언 방법](https://github.com/sendkite/springmvc/blob/main/src/main/java/hello/springmvc/basic/LogTestController)
-[원하는 레벨만 표시되게 설정](https://github.com/sendkite/springmvc/blob/main/src/main/resources/application.properties)
+- [레벨별 로그 선언 방법](https://github.com/sendkite/springmvc/blob/main/src/main/java/hello/springmvc/basic/LogTestController)
+- [원하는 레벨만 표시되게 설정](https://github.com/sendkite/springmvc/blob/main/src/main/resources/application.properties)
 
-[출처](https://tecoble.techcourse.co.kr/post/2021-08-07-logback-tutorial/)
+- [출처](https://tecoble.techcourse.co.kr/post/2021-08-07-logback-tutorial/)
 
 </details>
