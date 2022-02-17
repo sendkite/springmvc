@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.util.Locale;
 
 
@@ -18,7 +19,7 @@ public class RequestHeaderController {
 
     @RequestMapping("/headers")
     public String headers(HttpServletRequest request,
-                          HttpServletRequest response,
+                          HttpServletResponse response,
                           HttpMethod httpMethod,
                           Locale locale,
                           @RequestHeader MultiValueMap<String, String> headerMap,
